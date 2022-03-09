@@ -46,24 +46,21 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 | **PRODUCTE** | **MODALITAT** | **DESCRIPCIO** |
 | **RGC** | RGC\_CONSULTA | Consulta situació de les prestacions RGC d&#39;un ciutadà.|
 | --- | --- | --- |
-| RGC\_CONSULTA\_HISTORIC | Consulta de dades històriques de les prestacions RGC d&#39;un ciutadà.
- |
+| RGC\_CONSULTA\_HISTORIC | Consulta de dades històriques de les prestacions RGC d&#39;un ciutadà.|
 
 Totes les consultes del producte tenen disponible la versió imprimible del resultat de la consulta en format PDF. Per més detalls adreceu-vos a l&#39;apartat _Extensions de missatgeria_ del document de missatgeria genèrica.
 
-# 3Missatgeria dels serveis
+# 3 Missatgeria dels serveis
 
 A continuació es detalla la missatgeria corresponent al bloc de dades específiques de les modalitats de consum del producte RGC.
 
-## 3.1Situació d&#39;un ciutadà en relació a la Renda Garantida Ciutadana (RGC\_CONSULTA)
+## 3. Situació d&#39;un ciutadà en relació a la Renda Garantida Ciutadana (RGC\_CONSULTA)
 
-### 3.1.1Petició – dades específiques
+### 3.1.1 Petició – dades específiques
 
 | _Element_ | _Descripció_ |
 | --- | --- |
-| peticioConsultaPrestacions/documentIdentificador
- | Document identificador del titular que es vol fer la consulta.
- |
+| peticioConsultaPrestacions/documentIdentificador | Document identificador del titular que es vol fer la consulta. |
 | --- | --- |
 | peticioConsultaPrestacions/tipusDocument | Tipus de document identificador :
 
