@@ -4,10 +4,6 @@
 # **Document d&#39;integració del servei**
 
 
-**Control del document**
-
-**Informació general**
-
 **Històric de revisions**
 
 | **Versió** | **Data** | **Autor** | **Comentaris** |
