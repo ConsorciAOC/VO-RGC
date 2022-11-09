@@ -10,9 +10,22 @@
 | --- | --- | --- | --- |
 | V1.0 | 11/02/2022 | Roger Noguera i Arnau | Creació del document |
 
+### Índex
+
+- [1. Introducció](#1)
+- [2. Transmissions de dades disponibles](#2)
+- [3. Missatgeria dels serveis](#3)
+   * [3.1. Situació d&#39;un ciutadà en relació a la Renda Garantida Ciutadana (RGC\_CONSULTA)](#3.1)
+		* [3.1.1 Petició – dades específiques](#3.1.1)
+		* [3.1.2 Resposta - dades específiques](#3.1.2)
+   * [3.2. Imports rebuts en un període de temps (RGC\_CONSULTA\_HISTORIC)](#3.2)
+		* [3.2.1 Petició – dades específiques](#3.2.1)
+		* [3.2.2 Resposta - dades específiques](#3.2.2)
+- [4. Joc de proves](#4)
 
 
-# 1 Introducció
+
+# 1 Introducció <a name="1"></a>
 
 Aquest document detalla la missatgeria associada al servei de consulta de les prestacions Renda Garantida Ciutadana (en endavant RGC) del Departament de Drets Socials.
 
@@ -23,7 +36,7 @@ Per poder realitzar la integració cal conèixer prèviament la següent documen
 
 [PCI]:https://github.com/ConsorciAOC/PCI
 
-# 2 Transmissions de dades disponibles
+# 2 Transmissions de dades disponibles <a name="2"></a>
 
 Les dades disponibles a través del servei són les que es presenten a continuació:
 
@@ -38,13 +51,13 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 
 Totes les consultes del producte tenen disponible la versió imprimible del resultat de la consulta en format PDF. Per més detalls adreceu-vos a l&#39;apartat _Extensions de missatgeria_ del document de missatgeria genèrica.
 
-# 3 Missatgeria dels serveis
+# 3 Missatgeria dels serveis <a name="3"></a>
 
 A continuació es detalla la missatgeria corresponent al bloc de dades específiques de les modalitats de consum del producte RGC.
 
-## 3. Situació d&#39;un ciutadà en relació a la Renda Garantida Ciutadana (RGC\_CONSULTA)
+## 3.1 Situació d&#39;un ciutadà en relació a la Renda Garantida Ciutadana (RGC\_CONSULTA) <a name="3.1"></a>
 
-### 3.1.1 Petició – dades específiques
+### 3.1.1 Petició – dades específiques <a name="3.1.1"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -53,7 +66,7 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 
 ![1](captures/1.png)
 
-### 3.1.2 Resposta – dades específiques
+### 3.1.2 Resposta – dades específiques <a name="3.1.2"></a>
 
 ![2](captures/2.png)
 
@@ -65,9 +78,9 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | respostaConsultaPrestacions/resultat/codiResultat | Codi de resultat de la consulta:<li>0: consulta realitzada correctament.<li>0502: error realitzant la consulta. |
 | respostaConsultaPrestacions/resultat/descripcio | Descripció del resultat. |
 
-## 3.2 Imports rebuts en un període de temps (RGC\_CONSULTA\_HISTORIC)
+## 3.2 Imports rebuts en un període de temps (RGC\_CONSULTA\_HISTORIC) <a name="3.2"></a>
 
-### 3.2.1 Petició – dades específiques
+### 3.2.1 Petició – dades específiques <a name="3.2.1"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -78,7 +91,7 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 
 ![3](captures/3.png)
 
-### 3.2.2 Resposta – dades específiques
+### 3.2.2 Resposta – dades específiques <a name="3.2.2"></a>
 
 ![4](captures/4.png)
 
@@ -93,7 +106,7 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | respostaConsultaPrestacionsHistoric/resultat/descripcio | Descripció del resultat. |
 
 
-# 4 Joc de proves
+# 4 Joc de proves <a name="4"></a>
 
 L&#39;emissor final publica els següent [joc de proves a l&#39;entorn de pre-producció][proves] 
 
